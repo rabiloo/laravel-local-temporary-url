@@ -12,4 +12,7 @@
             <directory name="vendor"/>
         </ignoreFiles>
     </projectFiles>
+    <plugins>
+        <pluginClass xmlns="https://getpsalm.org/schema/config" class="Psalm\LaravelPlugin\Plugin"/>
+    </plugins>
 </psalm>
