@@ -25,9 +25,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 
-## 0.1.0 - YYYY-MM-DD
+## 1.0.0 - 2022-05-17
 
 The first release
 
 
-[Unreleased]: https://github.com/rabiloo/laravel-local-temporary-url/compare/v0.1.0...master
+[Unreleased]: https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.0.0...master
