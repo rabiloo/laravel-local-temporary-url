@@ -1,1 +1,1 @@
-github: vendor-slug
+github: rabiloo

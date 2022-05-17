@@ -1,30 +1,35 @@
 {
-  "name": "vendor-slug/package-slug",
-  "description": "package-description",
+  "name": "rabiloo/laravel-local-temporary-url",
+  "description": "This package provides temporary url method for local filesystem driver",
   "keywords": [
-    "vendor-slug",
-    "package-slug"
+    "rabiloo",
+    "laravel",
+    "filesystem",
+    "temporary-url"
   ],
-  "homepage": "https://github.com/github-uri",
+  "homepage": "https://github.com/rabiloo/laravel-local-temporary-url",
   "license": "MIT",
   "authors": [
     {
-      "name": "author-name",
-      "email": "author@domain.com",
+      "name": "Oanh Nguyen",
+      "email": "oanhnn.bk@gmail.com",
       "role": "Developer"
     }
   ],
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "illuminate/support": "^8.12|^9.0"
   },
   "require-dev": {
+    "nunomaduro/collision": "^6.2",
+    "orchestra/testbench": "^6.0|^7.0",
     "phpunit/phpunit": "^9.5",
     "squizlabs/php_codesniffer": "^3.6",
     "vimeo/psalm": "^4.11"
   },
   "autoload": {
     "psr-4": {
-      "VendorNamespace\\PackageNamespace\\": "src"
+      "Rabiloo\\Laravel\\LocalTemporaryUrl\\": "src"
     }
   },
   "autoload-dev": {
@@ -32,8 +37,15 @@
       "Test\\": "tests"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rabiloo\\Laravel\\LocalTemporaryUrl\\ServiceProvider"
+      ]
+    }
+  },
   "scripts": {
-    "test": "vendor/bin/phpunit",
+    "test": "vendor/bin/testbench package:test",
     "format": "vendor/bin/phpcbf",
     "format:check": "vendor/bin/phpcs",
     "psalm": "vendor/bin/psalm"
