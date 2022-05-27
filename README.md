@@ -1,19 +1,13 @@
-# This is my package Laravel Local Temporary Url
+# Laravel Local Temporary Url
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rabiloo/laravel-local-temporary-url.svg?style=flat-square)](https://packagist.org/packages/rabiloo/laravel-local-temporary-url)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/rabiloo/laravel-local-temporary-url/Tests?label=tests)](https://github.com/rabiloo/laravel-local-temporary-url/actions?query=workflow%3ATests+branch%3Amaster)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/rabiloo/laravel-local-temporary-url/Check%20&%20fix%20styling?label=code%20style)](https://github.com/rabiloo/laravel-local-temporary-url/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/rabiloo/laravel-local-temporary-url.svg?style=flat-square)](https://packagist.org/packages/rabiloo/laravel-local-temporary-url)
 
----
-This package can be used as to scaffold a framework agnostic package. Follow these steps to get started:
+Provides `temporaryUrl()` method for local filesystem driver
 
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files
-3. Have fun creating your package.
----
-
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+![Laravel Local Temporary Url](https://banners.beyondco.de/Local%20Temporary%20Url.png?theme=light&packageManager=composer+require&packageName=rabiloo%2Flaravel-local-temporary-url&pattern=brickWall&style=style_1&description=Provides+%60temporaryUrl%60+method+for+local+filesystem+driver&md=1&showWatermark=0&fontSize=100px&images=clock)
 
 ## Installation
 
