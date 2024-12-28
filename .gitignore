@@ -2,7 +2,7 @@
 #################################################
 composer.lock
 vendor
-.phpunit.result.cache
+.phpunit.cache
 phpunit.xml
 phpcs.xml
 build

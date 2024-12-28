@@ -23,6 +23,7 @@ class ServiceProviderTest extends TestCase
     }
 
     /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_should_has_temporary_url()
     {
         $path = 'test/file.txt';
@@ -35,6 +36,7 @@ class ServiceProviderTest extends TestCase
         $response->assertOk()
             ->assertDownload('file.txt');
 
+        // Sleep 2 seconds
         sleep(2);
 
         $response = $this->get($url);
