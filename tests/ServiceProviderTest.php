@@ -22,7 +22,6 @@ class ServiceProviderTest extends TestCase
         ];
     }
 
-    /** @test */
     #[\PHPUnit\Framework\Attributes\Test]
     public function it_should_has_temporary_url()
     {

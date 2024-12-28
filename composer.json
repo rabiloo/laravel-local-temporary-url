@@ -17,12 +17,12 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
-    "illuminate/support": "^8.12|^9.0|^10.0|^11.0"
+    "php": ">=8.1",
+    "illuminate/support": "^9.0|^10.0|^11.0"
   },
   "require-dev": {
-    "orchestra/testbench": "^6.23|^7.0|^8.0|^9.0",
-    "phpunit/phpunit": "^9.0|^10.0|^11.0",
+    "orchestra/testbench": "^7.0|^8.0|^9.0",
+    "phpunit/phpunit": "^10.0|^11.0",
     "squizlabs/php_codesniffer": "^3.10"
   },
   "autoload": {
@@ -45,8 +45,7 @@
   "scripts": {
     "test": "vendor/bin/testbench package:test",
     "format": "vendor/bin/phpcbf",
-    "format:check": "vendor/bin/phpcs",
-    "psalm": "vendor/bin/psalm"
+    "format:check": "vendor/bin/phpcs"
   },
   "config": {
     "sort-packages": true
