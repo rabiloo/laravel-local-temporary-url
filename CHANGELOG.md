@@ -24,6 +24,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Nothing
 
 
+## [1.1.1](https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.1.0...v1.1.1) - 2025-01-07
+
+### Fixed
+- Fixed replacing response headers
+
+
+**Full Changelog**: https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.1.0...v1.1.1
+
 
 ## [1.1.0](https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.0.0...v1.1.0) - 2025-01-02
 
@@ -42,4 +50,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 The first release
 
 
-[Unreleased]: https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.1.0...master
+[Unreleased]: https://github.com/rabiloo/laravel-local-temporary-url/compare/v1.1.1...master
