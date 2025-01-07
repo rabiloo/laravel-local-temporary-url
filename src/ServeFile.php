@@ -44,7 +44,7 @@ class ServeFile
                 $disk->response($path, null, $headers),
                 function ($response) use ($headers) {
                     if (! $response->headers->has('Content-Security-Policy')) {
-                        $response->headers->replace();
+                        $response->headers->replace($headers);
                     }
                 }
             );
